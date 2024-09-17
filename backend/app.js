@@ -9,7 +9,7 @@ const ErrorHandler = require("./middleware/error");
 
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://eshop-market-app.vercel.app',
   credentials: true
 }));
 
